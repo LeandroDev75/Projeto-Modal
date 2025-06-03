@@ -1,62 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>projeto Modal</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <main class="container">
+      <div class="modal">
+        <h2>Modal</h2>
 
-    <div class="modal">
-<h2>Modal</h2>
+        <span class="span0"> Clique no botão para abrir e fechar o modal.</span>
 
-<span> Clique no botão para abrir e fechar o modal.</span>
-
-<button class="btn-close" onclick="onClose()">Fechar Modal</button>
-
-
-    </div>
+        <button class="btn-close" onclick="onClose()">Fechar Modal</button>
+      </div>
     </main>
 
+   <div class="container1">
+      <div class="modal1">
+        <h2 class="textoModal1">Modal 1</h2>
+<span class="span1"> Clique no botão para abrir e fechar o modal.</span>
 
-
-<div class="container1">
-
-        <div class="modal1">
-<button class="btn-close1" onclick="fecharModal()">Fechar Modal</button>
-
-        </div>  
-
-    </div> 
-
-<div class="container2">
-
-<span class="textoSpan2"> Clique no botão para abrir e fechar o modal.</span>    
-
-<div class="modal2">
-
-<button class="btn-close2" onclick="fecharModal2()">Fechar Modal</button>
-
-
-</div>
-
-
-</div>    
-
-    
-    <div class="botoesAbrirModal">
-
-    <button class="btn-open" onclick="onOpen()">Abrir Modal</button>
-
-    <button class="btn-open1" onclick="abrirModal1()">Abrir Modal 1</button> 
-
+        <button class="btn-close1" onclick="fecharModal()">Fechar Modal</button>
+      </div>
     </div>
-    
-    
+
+     <!-- <div class="container2">
+      <div class="modal2">
+        <h2 class="textoModal2">Modal 2</h2>
+        <span class="textoSpan2">
+          Clique no botão para abrir e fechar o modal.</span
+        >
+
+        <button class="btn-close2" onclick="fecharModal2()">
+          Fechar Modal
+        </button>
+      </div>
+    </div> -->
+
+    <div class="botoesAbrirModal">
+      <button class="btn-open" onclick="onOpen()">Abrir Modal</button>
+
+      <button class="btn-open1" onclick="abrirModal1()">Abrir Modal 1</button>
+    </div>
 
     <script src="/logica.js"></script>
-</body>
+  </body>
 </html>
