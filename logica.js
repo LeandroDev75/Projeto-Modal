@@ -20,7 +20,7 @@ function abrirModal1() {
 
 }
 
-function fecharModal() {
+function fecharModal1() {
 
 modal1.classList.remove("active1");
 
